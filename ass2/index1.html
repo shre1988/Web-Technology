@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Website</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <header>
+        <nav style="display: flex; ">
+            <div style="display: flex; justify-content: space-around;" class="logo">Clothify</div>
+            <div style="display: flex;" >
+            <ul class="nav-links">
+                <li style="display: inline; padding: 4px;"><a href="#home">Home</a></li>
+                <li style="display: inline;padding: 4px;"><a href="#about">About</a></li>
+                <li style="display: inline;padding: 4px;"><a href="#shop">Shop</a></li>
+                <li style="display: inline;padding: 4px;"><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 style="color: brown;">Welcome to Clothify</h1>
+            <p>Your one-stop shop for trendy clothing.</p>
+            <a href="#shop" class="cta-button">Shop Now</a>
+        </section>
+
+        <section class="clothing-cards" id="shop">
+            <h2>Our Collection</h2>
+            <div class="card-container">
+                
+                <div class="card">
+                    <img src="https://t3.ftcdn.net/jpg/02/10/85/26/240_F_210852662_KWN4O1tjxIQt8axc2r82afdSwRSLVy7g.jpg" alt="Clothing Item 2">
+                    <h3>Casual Shirt</h3>
+                    <p>$29.99</p>
+                </div>
+                <div class="card">
+                    <img src="https://t3.ftcdn.net/jpg/02/10/85/26/240_F_210852662_KWN4O1tjxIQt8axc2r82afdSwRSLVy7g.jpg" alt="Clothing Item 3">
+                    <h3>Comfortable Jeans</h3>
+                    <p>$39.99</p>
+                </div>
+                <div class="card">
+                    <img src="https://t3.ftcdn.net/jpg/02/10/85/26/240_F_210852662_KWN4O1tjxIQt8axc2r82afdSwRSLVy7g.jpg" alt="Clothing Item 4">
+                    <h3>Trendy Jacket</h3>
+                    <p>$59.99</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback" id="contact">
+            <h2>We Value Your Feedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Clothify. All rights reserved.</p>
+    </footer>
+</body>
+</html>

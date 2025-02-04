@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+header {
+    background-color: #f50057; /* Bright pink */
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #ff4081; /* Lighter pink */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #e91e63; /* Darker pink on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+}
+
+
+.clothing-cards {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 200px; /* Fixed width for cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: #f50057; /* Price color */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f50057; /* Bright pink */
+    color: white;
+}
+.feedback {
+    background-color: #ffe4f1; /* Light pink background for feedback form */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(184, 142, 142, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align feedback form */
+}
+
+.feedback h2 {
+    text-align: center;
+    color: rgb(92, 78, 78);
+    text-shadow: 0 0 5px #fff, 0 0 10px #f50057;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #f50057;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f50057;
+    transition: 0.3s;
+}
+
+.feedback form:hover {
+    box-shadow: 0 0 20px #f50057, 0 0 40px #ff0080;
+    transform: scale(1.02);
+}
+
+.feedback label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.feedback input, .feedback textarea {
+    padding: 10px;
+    border: 1px solid #f50057;
+    border-radius: 5px;
+    background: rgb(136, 105, 105);
+    color: white;
+    transition: 0.3s;
+}
+
+.feedback input:focus, .feedback textarea:focus {
+    border-color: #ff0080;
+    box-shadow: 0 0 10px #ff0080;
+    outline: none;
+}
+
+.feedback button {
+    background-color: #f50057;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+    text-shadow: 0 0 5px #fff;
+}
+
+.feedback button:hover {
+    background-color: #ff0080;
+    box-shadow: 0 0 10px #ff0080, 0 0 20px #ff00ff;
+    transform: scale(1.05);
+}
