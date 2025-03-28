@@ -26,3 +26,7 @@ c) Prompt/alerts for invalid values etc. <br/>
 Design an application using Angular JS.   <br/>
 e.g., Design registration (first name, last name, username, password) and login page using Angular JS.
 
+<h3>Title:3 </h3>
+: Implement the sample program demonstrating the use of Servlet.  
+e.g., Create a database table ebookshop (book_id, book_title, book_author, book_price, quantity) using 
+database like Oracle/MySQL etc. update and display (use SQL select query) the table content using servlet.
